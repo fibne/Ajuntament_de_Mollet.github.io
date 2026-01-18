@@ -22,14 +22,115 @@
         </nav>
     </header>
     <article> 
-        <img class="imgup" src="/img/contacte">
+        <img class="imgup" src="./img/contacte" alt="Contacto">
     </article>
-    <nav>
-        <div class="contacte">
-            <h1>Contacte</h1>
-            <h3>L'Oficina d'Atenció Ciutadana (OAC) de l'Ajuntament de Mollet del Vallès ofereix assistència i atenció telefònica per resoldre els dubtes i gestions que necessitin resoldre les persones usuàries.
-            </h3>
-        </div>
-    </nav>
+    <main class="contact-container">
+        <!-- Información de contacto -->
+        <section class="contact-section">
+            <h1>Datos de Contacto</h1>
+            
+            <!-- Teléfonos -->
+            <div class="contact-info">
+                <h2>Atención Telefónica</h2>
+                <p>La Oficina de Atención Ciudadana (OAC) del Ayuntamiento de Mollet del Valles ofrece asistencia y atención telefónica para resolver las dudas y gestiones que necesiten resolver las personas usuarias.</p>
+                <ul class="phone-list">
+                    <li><span class="phone-icon">☎</span> <span class="phone-number">93 571 95 05</span> - OAC (información y gestión telefónica)</li>
+                    <li><span class="phone-icon">☎</span> <span class="phone-number">93 571 95 00</span> - Centralita telefónica del Ayuntamiento</li>
+                </ul>
+            </div>
+
+            <!-- Correos y dirección -->
+            <div class="contact-info">
+                <h2>Correo Electrónico y Dirección</h2>
+                <ul class="contact-list">
+                    <li><span class="contact-icon">✉</span> <strong>Email OAC:</strong> <a href="mailto:oac@molletvalles.cat">oac@molletvalles.cat</a></li>
+                    <li><span class="contact-icon">✉</span> <strong>Email General:</strong> <a href="mailto:ajuntament@molletvalles.cat">ajuntament@molletvalles.cat</a></li>
+                    <li><span class="contact-icon">📍</span> <strong>Dirección:</strong> Plaça de la Vila, 1 - 08100 Mollet del Vallès</li>
+                </ul>
+            </div>
+
+            <!-- Horarios -->
+            <div class="contact-info">
+                <h2>Horario de Atención</h2>
+                <ul class="contact-list">
+                    <li><strong>Lunes a Viernes:</strong> 08:00 - 14:00 h</li>
+                    <li><strong>Atención Telefónica Ampliada:</strong> Lunes a Viernes 08:00 - 19:00 h</li>
+                </ul>
+            </div>
+
+        <!-- Mapa -->
+        <section class="map-section">
+            <h2>Ubicación</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.2824!2d2.209!3d41.5447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a497dd96e5e5e5%3A0x1234567890abcdef!2sPlaa%20de%20la%20Vila%2C%201%2C%2008100%20Mollet%20del%20Vall%C3%A8s%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1705600800000" width="100%" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <!-- Formulario de denuncias -->
+        <section class="complaint-section">
+            <h2>Reportar Actividad contra el Medio Ambiente</h2>
+            <p class="complaint-intro">¿Has observado una actividad que perjudica el medio ambiente? Reporta aquí tus denuncias. Los datos recogidos serán revisados por nuestro equipo de control ambiental.</p>
+            
+            <form class="complaint-form" id="complaintForm">
+                <div class="form-group">
+                    <label for="name">Nombre Completo *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="location">Ubicación de la Actividad *</label>
+                    <input type="text" id="location" name="location" placeholder="Calle, barrio o zona" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="activity-type">Tipo de Actividad Denunciada *</label>
+                    <select id="activity-type" name="activity-type" required>
+                        <option value="">-- Selecciona una opción --</option>
+                        <option value="contaminacion-aire">Contaminación del aire</option>
+                        <option value="contaminacion-agua">Contaminación del agua</option>
+                        <option value="residuos">Gestión incorrecta de residuos</option>
+                        <option value="ruido">Contaminación sonora</option>
+                        <option value="flora-fauna">Daño a flora o fauna</option>
+                        <option value="vertido-ilegal">Vertido ilegal</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Descripción detallada de la actividad *</label>
+                    <textarea id="description" name="description" rows="6" placeholder="Describe con detalle la actividad denunciada..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Fecha de observación *</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="files">Adjuntar Archivos o Imágenes</label>
+                    <input type="file" id="files" name="files" multiple accept="image/*,.pdf,.doc,.docx">
+                    <small>Puedes subir hasta 5 archivos. Formatos permitidos: imágenes, PDF, Word</small>
+                </div>
+
+                <div class="form-checkbox">
+                    <input type="checkbox" id="privacy" name="privacy" required>
+                    <label for="privacy">He leído y acepto la política de privacidad *</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar Denuncia</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
