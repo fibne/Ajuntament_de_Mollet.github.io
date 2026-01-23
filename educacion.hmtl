@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Educación Medioambiental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Ayuntamiento de Mollet del Vallès</h1>
+</header>
+
+<main class="pagina-detalle">
+
+    <section class="cabecera-apartado">
+        <h1>Educación Medioambiental</h1>
+    </section>
+
+    <section class="contenido">
+
+        <div class="texto">
+            <h2>Concienciación y formación</h2>
+
+            <p>
+                El Ayuntamiento desarrolla programas de educación medioambiental en
+                centros educativos para concienciar a niños y jóvenes sobre el respeto
+                al medio ambiente, en lo cual se basan en el (SEAM).
+            </p>
+
+            <p>
+               El Servicio de Educación Ambiental de Mollet del Vallés (SEAM) es un servicio municipal que ofrece actividades y materiales de educación ambiental relacionados con agua, energía, residuos, aire, contaminación, territorio, flora y fauna, etc.
+            </p>
+
+            <p>
+                Una de las principales actividades del SEAM es el programa de educación ambiental por la gestión de residuos. 
+                El Consorcio para la Gestión de los Residuos del Vallés Oriental organiza diversas actividades (visitas, charlas, talleres, etc.) dirigidas a la población escolar y, en algún caso, al público en general. Todas las actividades son de carácter gratuito.
+            </p>
+
+            <h3>Proyecto Golondrinas</h3>
+            
+            <p> 
+                El projecte Orenetes es basa en mantenir actualitzat el cens de població de l’oreneta cuablanca (Delichon urbicum), fent el seguiment dels nius a cada municipi a fi de promoure la conservació d’aquesta espècie i conèixer els seus beneficis a l’hora del control de determinades plagues com la del mosquit tigre.
+                Les escoles de Mollet participen en el projecte actualitzant anualment el cens d’orenetes.
+                El projecte consisteix en la realització de xerrades teòriques a cada escola participant sobre les orenetes: on viuen, l'alimentació, la importància que tenen, etc. i d'un treball de camp al mes de maig amb els alumnes de les escoles a fi d'actualitzar aquest cens d'orenetes.
+            </p>
+            
+        </div>
+
+        <div class="imagenes">
+            <a href="#img1">
+                <img src="img/educacion.jpg" alt="Educación ambiental">
+            </a>
+        </div>
+
+    </section>
+
+    <div id="img1" class="lightbox">
+        <a href="javascript:void(0)" onclick="window.history.back();">
+            <img src="img/educacion.jpg" alt="Educación ambiental">
+        </a>
+    </div>
+
+</main>
+
+
+</body>
+</html>
