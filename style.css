@@ -1663,7 +1663,7 @@ th, td {
 
 /* TÍTULO GRANDE CON FONDO */
 .cabecera-apartado {
-    background-image: url("images/panel3.png"); /* opcional */
+    background-image: url("img/panel3.png"); /* opcional */
     background-size: 100%;
     background-position: center bottom;
     padding: 70px 0%;
@@ -1672,7 +1672,7 @@ th, td {
     color: #ffffff;
 }
 .cabecera-apartado2 {
-    background-image: url("images/reciclaje2.jpg"); /* opcional */
+    background-image: url("img/reciclaje2.jpg"); /* opcional */
     background-size: 105%;
     background-position: center center;
     padding: 70px 20%;
@@ -1681,7 +1681,7 @@ th, td {
     color: #fff0f0;
 }
 .cabecera-apartado3 {
-    background-image: url("images/transporte2.jpg"); /* opcional */
+    background-image: url("img/transporte2.jpg"); /* opcional */
     background-size: 100%;
     background-position: center center;
     padding: 70px 30%;
@@ -1750,7 +1750,7 @@ th, td {
 /* ===== CONSEJOS EMPRESAS Y CIUDADANOS ===== */
 
 .cabecera-apartado4 {
-    background-image: url("images/empresa.jpg"); /* opcional */
+    background-image: url("img/empresa.jpg"); /* opcional */
     background-size: 100%;
     background-position: center top;
     padding: 70px 20%;
@@ -1787,6 +1787,7 @@ th, td {
     font-size: 16px;
     line-height: 1.6;
 }
+
 
 
 
