@@ -67,7 +67,7 @@ body {
     font-weight: 500;
     display: block;
     /* Font size responsive pero más compacto */
-    font-size: 13px;
+    font-size: 18px;
     white-space: nowrap;
     /* Altura igual para que se adapte perfectamente */
     height: 100%;
@@ -1787,5 +1787,6 @@ th, td {
     font-size: 16px;
     line-height: 1.6;
 }
+
 
 
