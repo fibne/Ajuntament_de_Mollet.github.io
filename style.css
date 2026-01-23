@@ -178,7 +178,7 @@ section h1 {
     margin-top: 10%;
     font-size: clamp(2rem, 8vw, 100px);
     font-family: "Noto Sans", sans-serif;
-    background-image: url(./img/fondo-navidad.webp);
+    background-image: url(./img/fondo_letras.jpg);
     background-size: cover;
     background-clip: text;
     color: transparent;
@@ -1544,5 +1544,6 @@ section h1 {
         padding: 2rem 1rem 0;
     }
 }
+
 
 
